@@ -19,9 +19,8 @@
         <br><h1 id = "head1">Admissions Form</h1>
         <p class="description">Admissions are open for 2025-26!<br>Make your ward's Admissions in one of the India's best school.(DBS)</p>
         <form action="mailto:nesar.minein@gmail.com" method="post">
-            <h3 class="head3">Child's information</h3>
+            <h3 class="form-heads">Child's information</h3>
             <input type = "text" id = "name" class = "inputs" placeholder="Enter child's full name" required><br><br>
-            <label for="DOB" class = "description">Enter D.O.B. of child.</label><br><input type="date" id = "DOB" class="inputs" placeholder="Enter D.O.B. of child" required><br><br>
             <input type="email" class="inputs" id="email" placeholder="Enter child's email(optional)"><br><br>
             <select class = "inputs" id = "class" required>
                 <option value = "Nursery">Nursery</option>
@@ -39,13 +38,15 @@
                 <option value="X">X</option>
                 <option value="XI">XI</option>
                 <option value="XII">XII</option>
-            </select><br><br><hr><br>
-            <h3 class = "head3">Mother's information</h3>
+            </select><br><br><br>
+            <input type="date" id = "DOB" class="inputs" placeholder="Enter D.O.B. of child" required><br><label for="DOB" class = "description" id ="dob-des" style ="margin: 30px;">D.O.B. of child.</label><br>
+            <br><br><hr><br>
+            <h3 class="form-heads">Mother's information</h3>
             <input type="text" class="inputs" id ="mother's-name" placeholder="Enter mother's name"required><br><br>
             <input type="tel" class="inputs" id ="mother's-number" placeholder="Enter mother's mobile number"required><br><br>
             <input type ="text" class="inputs"id ="mother's-proffession" placeholder="Enter mother's proffession(optional)"><br><br>
             <hr><br>
-            <h3 class = "head3">
+            <h3 class="form-heads">
                 Father's information
             </h3>
             <input type="text" class="inputs" id ="father's-name" placeholder="Enter father's name"required><br><br>
