@@ -50,6 +50,7 @@ body{
     border-radius: 15px;
     display: flex;
     flex-direction: column;
+    text-align:center;
 }
 #head1{
     font-weight: 750;
@@ -100,4 +101,5 @@ body{
     left: 0;
     right: 0;
 }
+
 
