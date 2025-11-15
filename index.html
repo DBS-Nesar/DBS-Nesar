@@ -21,9 +21,9 @@
         <form action="https://api.web3forms.com/submit" method="POST">
         <input type="hidden" name="access_key" value="3084628c-fdfc-4465-9120-038c86e72a5a">
             <h3 class="form-heads">Child's information</h3>
-            <input type = "text" id = "name" class = "inputs" placeholder="Enter child's full name" required><br><br>
-            <input type="email" class="inputs" id="email" placeholder="Enter child's email(optional)"><br><br>
-            <select class = "inputs" id = "class" required>
+            <input type = "text" name="name"id = "name" class = "inputs" placeholder="Enter child's full name" required><br><br>
+            <input type="email" name="email"class="inputs" id="email" placeholder="Enter child's email(optional)"><br><br>
+            <select class = "inputs" id = "class" required name="class">
                 <option value = "Nursery">Nursery</option>
                 <option value ="PREP-1">PREP-1</option>
                 <option value="PREP-2">PREP-2</option>
@@ -43,16 +43,16 @@
             <input type="date" id = "DOB" class="inputs" placeholder="Enter D.O.B. of child" required><br><label for="DOB" class = "description" id ="dob-des" style ="margin: 30px;">D.O.B. of child.</label><br>
             <br><br><hr><br>
             <h3 class="form-heads">Mother's information</h3>
-            <input type="text" class="inputs" id ="mother's-name" placeholder="Enter mother's name"required><br><br>
-            <input type="tel" class="inputs" id ="mother's-number" placeholder="Enter mother's mobile number"required><br><br>
-            <input type ="text" class="inputs"id ="mother's-proffession" placeholder="Enter mother's proffession(optional)"><br><br>
+            <input type="text" name="mother's-name"class="inputs" id ="mother's-name" placeholder="Enter mother's name"required><br><br>
+            <input type="tel" name="mother's-number"class="inputs" id ="mother's-number" placeholder="Enter mother's mobile number"required><br><br>
+            <input type ="text" name="mother's-proff"class="inputs"id ="mother's-proffession" placeholder="Enter mother's proffession(optional)"><br><br>
             <hr><br>
             <h3 class="form-heads">
                 Father's information
             </h3>
-            <input type="text" class="inputs" id ="father's-name" placeholder="Enter father's name"required><br><br>
-            <input type="tel" class="inputs" id ="father's-number" placeholder="Enter father's mobile number"required><br><br>
-            <input type ="text" class="inputs"id ="father's-proffession" placeholder="Enter father's proffession(optional)"><br><br>
+            <input type="text" name="father's-name"class="inputs" id ="father's-name" placeholder="Enter father's name"required><br><br>
+            <input type="tel" name="father's-number"class="inputs" id ="father's-number" placeholder="Enter father's mobile number"required><br><br>
+            <input type ="text" name="father's-proff" class="inputs"id ="father's-proffession" placeholder="Enter father's proffession(optional)"><br><br>
             <input type = "submit" class="inputs"id ="submit-button">
         </form> 
     </div>
@@ -70,4 +70,5 @@
     </footer>
 </body>
 </html>                             
+
 
