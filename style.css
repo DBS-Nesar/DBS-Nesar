@@ -36,7 +36,6 @@ body{
 .links{
     text-decoration: none;
     color: black;
-
     line-height: 60px;
     float: left;
 }
@@ -66,6 +65,7 @@ body{
     box-shadow: 0px 4px 2px -2px gray;
     text-align: left;
     margin-left: 40px;
+    text-align:center; 
 }
 .description{
     color:rgb(107, 107, 107);
@@ -100,3 +100,4 @@ body{
     left: 0;
     right: 0;
 }
+
